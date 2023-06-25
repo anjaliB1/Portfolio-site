@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--JavaScript-->
+    <script src="script.js" defer></script>
+    <!--Font awsome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav class="navbar">
+            <!--Logo-->
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <!--Toggle navigation-->
+                <input type="checkbox" id="toggle">
+                <label for="toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+                <div class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact Me</a></li></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!--Main-->
+    <main>
+        <!--Move to top-->
+        <button onclick="topFunction()" id="toTop" class="toTop"><i class="fa-solid fa-arrow-up"></i></button>
+        <!--Home section-->
+        <section id="home" class="home">
+            <div class="home-part1">
+                <div class="home-text1">Hello World!</div>
+                <div class="home-text2">I'm <span class="myName">Anjali Baudh</span></div>
+                <div class="home-text3">A Web Developer</div>
+                <div class="profiles">
+                    <p>My Profiles : <a href="https://github.com/anjaliB1"><i class="fa-brands fa-github" style="color: #222222;"></i></a>&nbsp;
+                    <a href="https://www.linkedin.com/in/anjali-b-366bb9229"><i class="fa-brands fa-linkedin" style="color:#3772FF"></i></a></p>
+                    
+                </div>
+                <button class="resume-button"><a href="#!">View my resume</a></button>
+            </div>
+            <div class="home-part2">
+                <img src="/images/profile-pic (2).png">
+            </div>
+        </section>
+        <!--About section-->
+        <section id="about" class="about">
+            <div class="about-block">
+                <div class="heading">About Me</div>
+                <p>I'm an enthusiastic learner with a passion for problem-solving and exploring new technologies. As a Computer Science undergraduate, currently in third year of college, I'm constantly seeking out new opportunities to expand my knowledge and skills in different areas of computer science. I'm fascinated by the versatility of computer science and how it can be applied to a wide range of fields such as artificial intelligence, data science, cybersecurity, software development, and more. This curiosity drives me to explore different technical disciplines to gain a comprehensive understanding of their principles, techniques, and practical applications.</p>
+            </div>
+        </section>
+        <!--Education-->
+        <section id="education" class="education">
+            <div class="content-block">
+                <p class="heading">Education</p>
+                <br>
+                <div class="e-content">
+                    <h5>2021 - Present (Expected 2025)</h5>
+                    <h3>Maulana Azad National Institute of Technology, Bhopal</h3><br>
+                    <h4>B. Tech in Computer Science and Engineering</h4>
+                    <ul>
+                        <li>Relevent Coursework:<br>
+                            <ul>
+                                <li>Data Structures & Algorithms, Object Oriented Programming, Database Management Systems, Software Engineering, Computer System Organisation etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h5>2009 - 2021</h5>
+                    <h3>Kendriya Vidyalaya No. 1 Bhopal</h3><br>
+                    <h4>Class XII</h4>
+                    <ul>
+                        <li>Board: CBSE</li>
+                        <li><p>Subjects: PCM + IP (Python & MySQL)</p></li>
+                        <li>Grade: <b>94.4%</b></li>
+                    </ul>
+                    <br>
+                    <h4>Class X</h4>
+                    <ul>
+                        <li>Board: CBSE</li>
+                        <li>Grade: <b>94%</b></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Experience-->
+        <section id="experience" class="experience">
+            <div class="content-block">
+                <p class="heading">Experience</p>
+                <br>
+                <div class="e-content">
+                    <h5>July, 2023 - Present</h5>
+                    <h3>The Sparks Foundation</h3><br>
+                    <h4>Web Development Intern</p>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h5>June, 2023</h5>
+                    <h3>MicroSoft Azure</h3><br>
+                    <h4>Mentee</h4>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h5>May, 2023 - June, 2023</h5>
+                    <h3>CasCode</h3><br>
+                    <h4>Web Development Intern</h4>
+                </div>
+                  </div>
+            </div>
+        </section>
+        <!--Skills-->
+        <section id="skills" class="skills">
+            <div class="skills-block">
+                <p class="heading">Skills</p>
+                <br>
+                <div class="progress">
+                    <div class="progress1">
+                        <ul>
+                            <li><i class="fa-brands fa-html5"></i><br><progress value="70" max="100"></progress>70%</li>
+                            <li><i class="fa-brands fa-css3-alt"></i><br><progress value="60" max="100"></progress>60%</li>
+                            <li><i class="fa-brands fa-square-js"></i><br><progress value="40" max="100"></progress>40%</li>
+                            <li><i class="fa-brands fa-bootstrap"></i><br><progress value="30" max="100"></progress>30%</li>
+                            <li><i class="fa-brands fa-sass"></i><br><progress value="25" max="100"></progress>25%</li>
+                        </ul>
+                    </div>
+                    <div class="progress2">
+                        <ul>
+                            <li><i class="devicon-c-plain"></i><br><progress value="85" max="100"></progress>85%</li>
+                            <li><i class="devicon-cplusplus-plain"></i><br><progress value="90" max="100"></progress>90%</li>
+                            <li><i class="devicon-python-plain"></i><br><progress value="60" max="100"></progress>60%</li>
+                            <li><i class="devicon-mysql-plain"></i><br><progress value="80" max="100"></progress>80%</li>
+                            <li><i class="devicon-vscode-plain"></i><br><progress value="90" max="100"></progress>90%</li>
+                        </ul>
+                    </div>
+                    <div class="progress3">
+                        <ul>
+                            <li><i class="devicon-git-plain"></i><br><progress value="50" max="100"></progress>50%</li>
+                            <li><i class="devicon-github-plain"></i><br><progress value="70" max="100"></progress>70%</li>
+                            <li><i class="fa-solid fa-file-word"></i><br><progress value="70" max="100"></progress>70%</li>
+                            <li><i class="fa-solid fa-file-excel"></i><br><progress value="30" max="100"></progress>30%</li>
+                            <li><i class="fa-solid fa-file-powerpoint"></i><br><progress value="35" max="100"></progress>35%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Projects-->
+        <section id="projects" class="projects">
+            <div class="content-block">
+                <p class="heading">Projects</p>
+                <br>
+                <div class="slide">
+                    <a href="https://anjalib1.github.io/Random-Quote-Generator/"><img src="/images/Random Quote Generator.png" alt="Random Quote Generator"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://anjalib1.github.io/Resolve-A-Riddle/"><img src="/images/Resolve A Riddle.png" alt="Resolve A Riddle"></a>
+                </div>
+                <div class="slide">
+                    <a href="https://anjalib1.github.io/CasCode-task-3/"><img src="/images/Tic Tac Toe Game.png" alt="Tic Tac Toe Game"></a>
+                </div>
+                <br>
+                <div class="sliders">
+                    <button class="slide-left" onclick="plusDivs(-1)"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="slide-right" onclick="plusDivs(+1)"><i class="fa-solid fa-angle-right"></i></button>
+                    <div class="slide-buttons">
+                </div>
+            </div>
+        </section>
+        <!--Certification-->
+        <section id="certifications" class="certifications">
+            <div class="content-block">
+                <p class="heading">Certifications</p>
+                <br>
+                <div class="e-content">
+                    <h3>Mastering Data Structures & Algorithms using C and C++</h3>
+                    <h4>Udemy</h4>
+                    <h5>Issued April, 2023</h5>
+                    <button><a href="https://www.udemy.com/certificate/UC-c3a118e7-33ce-4557-ab20-7c4ec218c092/">View Ceritficate</a></button>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h3>Google Cloud Digital Leader Training Ceritification</h3>
+                    <h4>Coursera</h4>
+                    <h5>Issued May, 2023</h5>
+                    <button><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JE96QBFKS89V">View Ceritficate</a></button>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h3>Understanding Google Cloud Security and
+                        Operations</h3>
+                    <h4>Coursera</h4>
+                    <h5>Issued May, 2023</h5>
+                    <button><a href="https://www.coursera.org/account/accomplishments/certificate/SA4X4JPP6WB9">View Ceritficate</a></button>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h3>Infrastructure and Application Modernization with
+                        Google Cloud</h3>
+                    <h4>Coursera</h4>
+                    <h5>Issued May, 2023</h5>
+                    <button><a href="https://www.coursera.org/account/accomplishments/certificate/4Z5CBV7YXLLV">View Ceritficate</a></button>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h3>Innovating with Data and Google Cloud</h3>
+                    <h4>Coursera</h4>
+                    <h5>Issued May, 2023</h5>
+                    <button><a href="https://www.coursera.org/account/accomplishments/certificate/PSD9YZNA6MYY">View Ceritficate</a></button>
+                </div>
+                <br>
+                <div class="e-content">
+                    <h3>Digital Transformation with Google Cloud</h3>
+                    <h4>Coursera</h4>
+                    <h5>Issued May, 2023</h5>
+                    <button><a href="https://www.coursera.org/account/accomplishments/certificate/JTBRF9XDRTC3">View Ceritficate</a></button>
+                </div>
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="contact" class="contact">
+            <div class="content-block">
+                <p class="heading">Contact Me</p>
+                <form action="/" method="get">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" placeholder="Enter your name" required><br>
+                    <br>
+                    <label for="email">Email Id</label>
+                    <br>
+                    <input type="email" name="email" placeholder="Enter your email id" required><br>
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" class="message" cols="30" rows="10" placeholder="Enter your message here..." required></textarea><br>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>&copy; All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
